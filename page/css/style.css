@@ -127,9 +127,11 @@ pre {
   animation: slideInFromRight 1s ease-in;
 }
 
+/* .form-control wraps the inputs */
 .showcase-form .form-control {
   margin: 30px 0;
 }
+
 
 .showcase-form input[type='text'],
 .showcase-form input[type='email'] {
@@ -140,10 +142,15 @@ pre {
   font-size: 16px;
 }
 
+/* 
+focus意思是當 users click input 的狀態，
+outline: none == 去邊框
+*/
 .showcase-form input:focus {
   outline: none;
 }
 
+/**/
 .showcase::before,
 .showcase::after {
   content: '';

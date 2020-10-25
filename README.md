@@ -8,6 +8,8 @@
 2. Search font and go into font-awesome
 3. Copy link tag with *all.min.css* to index.html
 4. Then font-awesome classes can be used to create icons
+#### used in the project
++ fas fa-server, fas fa-upload, fas fa-project-diagram
 
 ### Lato
 1. Go to [fonts.google.com](https://fonts.google.com/)
@@ -19,6 +21,15 @@
 
     <div class="container flex">
     <div class="container grid">
+
+### pseudo-selector before after:
+    .showcase::before,
+    .showcase::after {
+        content: <necessary>; 
+    }
+E.p.
+p::after -> Insert content after every <p> element
+p::before -> Insert content before every <p> element
 
 ## Reference
 + <https://www.youtube.com/watch?v=p0bGHP-PXD4>
