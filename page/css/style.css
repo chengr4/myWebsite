@@ -61,6 +61,14 @@ pre {
   height: 0;
 }
 
+/* Utilities (used all around the website) */
+.container {
+  max-width: 1100px;
+  margin: 0 auto; /* first top and buttom, second left and right */
+  overflow: auto;
+  padding: 0 40px; /* first top and buttom, second left and right */
+}
+
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
@@ -166,16 +174,46 @@ outline: none == 去邊框
   -ms-transform: skewY(-3deg);
 }
 
-/* Utilities (used all around the website) */
-.container {
-  max-width: 1100px;
-  margin: 0 auto; /* first top and buttom, second left and right */
-  overflow: auto;
-  padding: 0 40px; /* first top and buttom, second left and right */
+
+/* Stats */
+.stats {
+  padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* 圖標的 h3 */
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Cli */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* *:first-child == anything that is the first dash child */
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* Cloud */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
 }
 
 /* Languages */
-
 .languages .flex {
   flex-wrap: wrap;
 }

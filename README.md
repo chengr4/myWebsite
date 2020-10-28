@@ -17,6 +17,7 @@
 3. Go to @import and copy the code into style.css
 
 ## 一些技巧
+### VSCode html 第一行打 ! 直接產生基本格式
 ### 先 flex 後 grid:
 
     <div class="container flex">
