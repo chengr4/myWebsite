@@ -221,7 +221,7 @@ outline: none == 去邊框
 .languages .card {
   text-align: center;
   margin: 18px 10px 40px;
-  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in; /* slow down transform */
 }
 
 .languages .card h4 {
@@ -229,6 +229,7 @@ outline: none == 去邊框
   margin-bottom: 10px;
 }
 
+/* when you mouse over them (minus goes up) */
 .languages .card:hover {
   transform: translateY(-15px);
 }
