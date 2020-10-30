@@ -1,4 +1,4 @@
-# Build a Responsive Website
+# Build a Responsive Website (done)
 
 為了個人網站而學習的 branch，留存作紀念。
 
@@ -29,8 +29,14 @@
         content: <necessary>; 
     }
 E.p.
-p::after -> Insert content after every <p> element
-p::before -> Insert content before every <p> element
+p::after -> Insert content after every \<p> element
+p::before -> Insert content before every \<p> element
+
+### Animation:
+讓物件移動(沒做)
+begin from video 1:52
+
+
 
 ## Reference
 + <https://www.youtube.com/watch?v=p0bGHP-PXD4>
