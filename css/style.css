@@ -1,0 +1,116 @@
+/* Root scope make coloers into variables*/
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+
+  --main-text: black;
+  --secondary-text: #4b5156;
+  --background-dark:#eaeaea;
+  --background-bright:#fff;
+  --border-color: red;
+}
+
+/* For all elements*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333;
+  line-height: 1.5; /* To spread things out a little bit */
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* For links */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 
+Utilities (used all around the website)
+全網頁共有css
+*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto; /* first top and buttom, second left and right */
+  overflow: auto;
+  padding: 0 40px; /* first top and buttom, second left and right */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* 
+Navbar 
+*/
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+}
+
+
+.navbar ul {
+  display: flex;
+}
+
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+/* when you mouse over them */
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+/* Showcase */
+
+.showcase-dark {
+  background-color: var(--background-dark);
+  border-bottom:1px solid var(--border-color);
+  overflow: auto;
+}
+
+.showcase-bright {
+  background-color: var(--background-bright);
+  border-bottom: 1px solid var(--border-color);
+  overflow: auto;
+}
