@@ -8,4 +8,4 @@
 3. set languages
 4. 跟著滾輪一起移動的 header
 
-## finished target
+## Finished target
