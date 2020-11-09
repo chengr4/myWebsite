@@ -12,6 +12,9 @@
   --background-dark:#eaeaea;
   --background-bright:#fff;
   --border-color: red;
+
+  --preview-bg:rgb(251, 249, 243, 0.8);
+	--preview-shadow:#f0ead6;
 }
 
 /* For all elements*/
@@ -144,14 +147,14 @@ Navbar
 	padding-bottom: 50px;
 }
 
+/* 大頭照 */
 #profile_pic{
 	display: block;
 	margin:0 auto;
 
 	height: 200px;
 	width: 200px;
-	object-fit: cover;
-  border:2px solid var(--borderColor);
+  border:2px solid var(--border-color);
   border-radius: 50%;
 }
 
@@ -162,6 +165,24 @@ Navbar
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+#preview-shadow{
+	background-color: var(--preview-shadow);
+	max-width: 300px;
+	height: 180px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+#preview{
+	width: 300px;
+	border:1.5px solid #17a2b8;
+	background-color: var(--preview-bg);
+  padding:15px;
+  
+}  
+
+
 
 /* Footer */
 .footer {
