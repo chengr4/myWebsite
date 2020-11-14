@@ -1,12 +1,12 @@
 # Read me
 
-
 ## Target
 
 1. 部署上 aws
 2. connect api wuth medium
 3. set languages
 4. 跟著滾輪一起移動的 header
+5. use es6 template literals to build notes part
 
 ## Finished target
 
