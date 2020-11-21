@@ -6,7 +6,6 @@
 2. connect api wuth medium
 3. set languages
 4. 跟著滾輪一起移動的 header
-5. use es6 template literals to build notes part
 
 ## Finished target
 
@@ -16,6 +15,11 @@
   npm install
   npm run deploy
   ```
++ 開一個 JS 檔給網址
++ use es6 template literals to build notes part
+
+## 備註
++ 更改文章欄時僅需更改 `alter.js`
 
 ## Reference
 + [Build a Portfolio Website & Deploy](https://www.youtube.com/watch?v=r_hYR53r61M&t=3945s)
