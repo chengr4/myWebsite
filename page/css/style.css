@@ -231,5 +231,26 @@ Navbar
 /* Footer */
 .footer {
   background-color: var(--primary-color);
-  margin: 0 10px;
+}
+
+
+/* Padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
 }
